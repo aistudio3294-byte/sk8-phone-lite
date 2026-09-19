@@ -1,8 +1,9 @@
-<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>SK8</title></head><body style="margin:0;background:#0c0b0a;color:#e8e0d4;font:16px system-ui"><p style="padding:1rem">Loading…</p><script>
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>SK8 Phone Lite</title></head><body style="margin:0;background:#0c0b0a;color:#e8e0d4;font:16px system-ui"><p style="padding:1rem">Loading SK8 Phone Lite…</p><script>
 (async()=>{
+  const base='https://cdn.jsdelivr.net/gh/aistudio3294-byte/sk8-phone-lite@main/parts/';
   const n=8;
   let s='';
-  for(let i=0;i<n;i++){ s += await (await fetch('./parts/p'+i+'.txt')).text(); }
+  for(let i=0;i<n;i++){ s += await (await fetch(base+'p'+i+'.txt')).text(); }
   document.open(); document.write(s); document.close();
-})().catch(e=>{document.body.textContent=String(e)});
+})().catch(e=>{document.body.innerHTML='<pre style="padding:1rem">Load failed: '+e+'\n\nTry again in a minute (CDN cache) or enable GitHub Pages.</pre>'});
 </script></body></html>
