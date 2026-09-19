@@ -1,0 +1,2 @@
+h(new DecompressionStream('gzip')));const h=await r.text();document.open();document.write(h);document.close()}catch(e){document.body.innerHTML='<pre style="padding:1rem">Unable to load demo: '+e+'</pre>'}})();
+</script></body></html>
