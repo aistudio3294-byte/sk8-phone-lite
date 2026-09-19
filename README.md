@@ -1,18 +1,16 @@
 # SK8 Phone Lite — Home Strip feel spike
 
-Throwaway **mobile-web** skate demo for Mike (Chrome phone / Chromebook). Does **not** replace the Unity `sk8-game` greybox.
+Throwaway **mobile-web** skate demo. Does **not** replace the Unity `sk8-game` greybox.
 
-## Open
+## Play now (phone / Chromebook)
 
-Playable URL (GitHub Pages once enabled): https://aistudio3294-byte.github.io/sk8-phone-lite/
+**Open:** https://cdn.jsdelivr.net/gh/aistudio3294-byte/sk8-phone-lite@main/index.html
 
-Or serve locally:
+Tap **SKATE**. Portrait or landscape. First load needs network (Three.js + this CDN).
 
-```bash
-cd /workspace/sk8-phone-lite && python3 -m http.server 8765
-```
+Backup host: https://raw.githack.com/aistudio3294-byte/sk8-phone-lite/main/index.html
 
-Tap **SKATE**. Portrait or landscape. First load needs Three.js CDN (`cdn.jsdelivr.net`).
+Optional: enable GitHub Pages on this repo (Settings → Pages → Deploy from `main` / root) for https://aistudio3294-byte.github.io/sk8-phone-lite/
 
 ## Controls
 
@@ -24,14 +22,14 @@ Tap **SKATE**. Portrait or landscape. First load needs Three.js CDN (`cdn.jsdeli
 | **Grab** | Indy hold in air |
 | **Revert** | 180 revert |
 
-Keyboard (Chromebook): WASD / arrows · Space/J Flip · K Grind · I Grab · L Revert
+Keyboard: WASD / arrows · Space/J Flip · K Grind · I Grab · L Revert
 
 ## Strip + story
 
 Driveway curb → street rail → mini plaza ledge.
 
-Crumbs: **Meet Dez** → **Film a line** (800+ combo) → **Apex photo** (ledge land in combo) → **Nia jab** → **Done**.
+Crumbs: Meet Dez → Film a line (800+) → Apex photo → Nia jab → Done.
 
 ## Caveats
 
-Arcade feel, not Unity. Score windows tuned for a short spike.
+Arcade feel, not Unity. Score windows for a short spike.
